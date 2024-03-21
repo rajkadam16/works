@@ -22,7 +22,7 @@ body {
     justify-content: center;
     text-align: center;
     z-index: 99;
-    /* display: none; */
+ 
 }
 #loader h1 {
     font-size: 10vh;
@@ -225,7 +225,7 @@ body {
     background-color: red;
     position: relative;
     overflow: hidden;
-    margin: 20px;
+    margin: 10px;
 }
 
 .img-div img {
@@ -295,9 +295,7 @@ body {
     width: 100%;
     background-color: black;
 }
-.foot{
 
-}
 #footer .foot h2{
     color: white;
     text-decoration: none;
