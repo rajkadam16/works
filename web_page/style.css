@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: plain;
+    src: url(./659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.ttf);
+  }
+  
+:root{
+    --salmon: #EF9D71;
+    --black: #000;
+    --white:#fff;
+    --cyan:#AEDEE0;
+    --dsalmon:rgb(103, 40, 34);
+    --dcyan: rgb(13, 50, 50);
+}
+
+
+*::selection{
+    background-color:var(--salmon);
+
+}
+
+.vide{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+body[theam="black"]{
+    background-color: var(--black);
+}
+body[theam="black"] .section{
+   color: var(--white);
+}
+body[theam="cyan"]{
+    background-color: var(--cyan);
+}
+body[theam="cyan"].section{
+   color: var(--dcyan);
+}
+body[theam="salom"]{
+    background-color: var(--salmon);
+}
+body[theam="salom"].section{
+    color: var(--dsalmon);
+}
+body[theam="white"]{
+    background-color: var(--white);
+}
+body[theam="white"].section{
+    color: var(--black);
+}
+

@@ -1,0 +1,14 @@
+<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique architecto, reiciendis neque exercitationem alias consequuntur! Voluptatem eos earum, nihil excepturi neque soluta incidunt rem maiores debitis iure, non veniam quod.
+</h1>
+@defer (on timer(2000ms)){
+    <app-heavy-compo></app-heavy-compo>
+  }@placeholder (minimum 500ms) {
+    <p>i am placeholde</p>
+  }@loading (after 100ms; minimum 1s){
+    <p>i am loading</p>
+  }@error {
+    <p>i am error</p>
+  }
+
+  <button type="button" #greeting>Hello!</button>
+
