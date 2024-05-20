@@ -19,7 +19,7 @@ export const routes: Routes = [
     component:CreateBinComponent,canActivate:[authGuard]},
     { path: 'about', loadComponent: () => import('./components/about/about.component').then(mod => mod.AboutComponent) },
     { path:"",component:HomeComponent},
-    { path:"snippet/",component:ViweSnippetComponent},
+    { path:"snippet/:id",component:ViweSnippetComponent},
     { path:"**",
     component:NotFound404Component }
 ];
