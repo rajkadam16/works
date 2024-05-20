@@ -12,7 +12,7 @@ import { ActivatedRoute } from '@angular/router';
 export class ViweSnippetComponent {
   codeSnippet = {
     title:"",
-    code:""
+    code:''
   }
   constructor(private route: ActivatedRoute,private dbService: DbService) { }
 
