@@ -10,7 +10,7 @@ I'm a passionate developer with a keen interest in software development, open-so
 - 📫 How to reach me: [Email](mailto:rajkadam16@example.com), [LinkedIn](https://www.linkedin.com/in/rajkadam16/)
 - ⚡ Fun fact: I love solving puzzles and playing chess in my free time!
 
-### Skills
+### Skills 
 
 - **Languages**: Python, JavaScript, Java, C++
 - **Frameworks/Libraries**: React, Node.js, Angular
